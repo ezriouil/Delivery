@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "769210422111",
+    "project_id": "delivery-7470b",
+    "storage_bucket": "delivery-7470b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769210422111:android:416a74e6bb4329e44adcea",
+        "android_client_info": {
+          "package_name": "www.ezriouil.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769210422111-pismunll939ljfc5oqo0jhfv6cktcs2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.ezriouil.delivery",
+            "certificate_hash": "25b75ebb002d3ed1bb3c0ce4f85ff3c1b7d6ef4d"
+          }
+        },
+        {
+          "client_id": "769210422111-gvfmojmvn1g7vea6u0lls8rn6rmubrfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQnFBIeXWf3Vo1QoGRPgg9TfQBzT7cET0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769210422111-gvfmojmvn1g7vea6u0lls8rn6rmubrfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

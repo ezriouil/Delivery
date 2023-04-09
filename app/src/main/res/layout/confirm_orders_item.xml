@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="7dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/statistic_order_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottom_to_top"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="nom du commande"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/confirm_order_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:lines="1"
+            android:gravity="center"
+            android:text="BOOTS"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="l'adresse"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/confirm_order_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="HAY RACHAD"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/confirm_order_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:letterSpacing="0.1"
+                android:text="price\n50 DH"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/confirm_order_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="quantité\n5"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/confirm_order_time_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:letterSpacing="0.1"
+                android:text="envoyer\n02/01/2023"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/confirm_order_time_response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="confirmer\n..."
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/confirm_order_btn_annuler"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.2"
+                android:layout_weight="1"
+                android:lines="1"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:background="#D32F2F"
+                android:text="Refuser"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/confirm_order_btn_livery"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:letterSpacing="0.2"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:text="Livery"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

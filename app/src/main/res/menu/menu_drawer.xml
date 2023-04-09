@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+
+    <item android:title="En-cours">
+        <menu >
+            <item
+                android:id="@+id/icon_waiting"
+                android:title="En-cours"
+                android:icon="@drawable/icon_waiting"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Confirmer">
+        <menu >
+            <item
+                android:id="@+id/icon_confirme"
+                android:title="Confirmer"
+                android:icon="@drawable/icon_confirme"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Refuser">
+        <menu >
+            <item
+                android:id="@+id/icon_cancel"
+                android:title="Refuser"
+                android:icon="@drawable/close"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Livrée">
+        <menu >
+            <item
+                android:id="@+id/icon_livrey"
+                android:title="Livrée"
+                android:icon="@drawable/icon_livrey"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Payé">
+        <menu >
+            <item
+                android:id="@+id/icon_paid"
+                android:title="Payé"
+                android:icon="@drawable/icon_paid"
+                app:showAsAction="always"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Annuler">
+        <menu >
+            <item
+                android:id="@+id/icon_Annuler"
+                android:title="Annuler"
+                android:icon="@drawable/icon_annuler"
+                />
+        </menu>
+    </item>
+    <item android:title="Sortie">
+        <menu >
+            <item
+                android:id="@+id/icon_close"
+                android:title="Sortie"
+                android:icon="@drawable/icon_log_out"
+                />
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+

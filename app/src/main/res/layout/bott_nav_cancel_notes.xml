@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/b_n_c_l"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Remarque"
+        android:layout_margin="10sp"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="#000000"
+        app:hintTextColor="#000000"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:startIconTint="@color/black"
+        android:animateLayoutChanges="true"
+        app:endIconMode="clear_text"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/b_n_c_n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:drawableStart="@drawable/icon_note"
+            android:drawablePadding="5dp"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b_n_c_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:letterSpacing="0.2"
+        android:textSize="17sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="envoyer"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

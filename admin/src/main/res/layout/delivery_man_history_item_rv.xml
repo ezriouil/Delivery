@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/history_order_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:gravity="center"
+            android:text="commande\nBOOTS"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/history_order_address"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="l'adresse\nTIFLET HAY RACHD G10"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:ellipsize="end"
+            android:textSize="15dp" />
+        <View
+            android:layout_width="200dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/history_order_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:letterSpacing="0.1"
+                android:text="prix\n50 DH"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/history_order_timePaid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="temps payé\n15/09 19:15"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

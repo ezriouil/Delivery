@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/deliveryMan_home_nav"
+        android:icon="@drawable/home"
+        android:title="Tableau De Bord"
+        app:cnb_iconColor="#000000"/>
+    <item
+        android:id="@+id/deliveryMan_user_nav"
+        android:icon="@drawable/user"
+        android:title="Ajoute Un Livreur"
+        app:cnb_iconColor="#000000"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/statistic_1_nav"
+        android:icon="@drawable/home"
+        android:title="Tous"
+        app:cnb_iconColor="#000000"/>
+    <item
+        android:id="@+id/statistic_2_nav"
+        android:icon="@drawable/no_answer"
+        android:title="Pas De Rép.."
+        app:cnb_iconColor="#FF2525"/>
+    <item
+        android:id="@+id/statistic_5_nav"
+        android:icon="@drawable/icon_plus_tard"
+        android:title="Plus tard"
+        app:cnb_iconColor="#0288D1"/>
+    <item
+        android:id="@+id/statistic_4_nav"
+        android:icon="@drawable/livre"
+        android:title="Livré"
+        app:cnb_iconColor="#B9F7DE3A"/>
+    <item
+        android:id="@+id/statistic_3_nav"
+        android:icon="@drawable/paye"
+        android:title="Payé"
+        app:cnb_iconColor="#00796B"/>
+
+</menu>

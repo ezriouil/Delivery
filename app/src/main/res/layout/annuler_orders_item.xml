@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="#AE8E8E"
+    android:layout_margin="7dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/statistic_order_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="nom du commande"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/annuler_order_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:lines="1"
+            android:gravity="center"
+            android:text="BOOTS"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="l'adresse"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/annuler_order_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:text="Annuler"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/annuler_order_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:letterSpacing="0.1"
+                android:text="prix\n50 DH"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/annuler_order_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="quantité\n5"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/annuler_order_time_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:letterSpacing="0.1"
+                android:text="envoyer\n02/01/2023"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/annuler_order_time_response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="réponse\n..."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

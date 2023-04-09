@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/login"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_margin="10sp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="#0097A7"
+                app:hintTextColor="#000000"
+                app:counterEnabled="true"
+                app:counterMaxLength="25"
+                app:startIconTint="@color/black"
+                android:animateLayoutChanges="true"
+                app:endIconMode="clear_text"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/black"
+                    android:textColor="@color/black"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/gmail"
+                    android:drawablePadding="10dp"
+                    android:maxLength="25"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mot de passe"
+                android:layout_margin="10sp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="#0097A7"
+                app:hintTextColor="#000000"
+                app:counterEnabled="true"
+                app:counterMaxLength="25"
+                app:startIconTint="@color/black"
+                android:animateLayoutChanges="true"
+                app:endIconMode="password_toggle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/black"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/password"
+                    android:drawablePadding="10dp"
+                    android:maxLength="25"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="190dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="connexion"
+                android:textStyle="bold"
+                android:letterSpacing="0.15"
+                android:fontFamily="@font/black"
+                android:backgroundTint="#00796B"
+                android:textColor="#FDFFFF"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

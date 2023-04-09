@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">admin</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="la_commande_envoyer_nmed_ezriouil">La Commande Envoyer à\nMED EZRIOUIL</string>
+    <string name="envoyer">envoyer</string>
+    <string name="commentaire">Commentaire</string>
+    <string name="num_ro">Numéro</string>
+    <string name="quantit">Quantité</string>
+    <string name="l_adresse">L\'adresse</string>
+    <string name="ville">Ville</string>
+    <string name="nom_de_commande">Nom de commande</string>
+    <string name="nouvelle_commande">NOUVELLE COMMANDE</string>
+    <string name="prix">Prix</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_theme"
+    android:id="@+id/bottom_sheet_login"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVP !! Active La Button\nDe Connection"
+        android:gravity="center"
+        android:fontFamily="@font/black"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnRefreshLogin"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Recharge La Page"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnQuiteLogin"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Quiter"
+        android:backgroundTint="#D51661"
+        android:textColor="@color/white"
+        android:layout_marginBottom="25dp"/>
+</LinearLayout>
